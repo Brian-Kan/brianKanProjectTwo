@@ -1,0 +1,36 @@
+
+// ==================================================
+// SPECIFIC BACKGROUND IMAGE AND FREE TRIALS STYLES
+// ==================================================
+// ---------- index.html ----------
+.bgImg {
+    height: 90vh;
+    background-image: url(../assets/banner-image.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+// ---------- index.html ----------
+.freeTrialsDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 25%;
+    .h2FreeTrials {
+        font-size: 2.25rem;
+        text-align: center;
+    }
+    .freeTrialsText {
+        text-align: left;
+        display: block;
+        margin: 2rem 0rem;
+    }
+    .freeTrialsBtn {
+        align-self: center;
+        text-align: center;
+        width: 15rem;
+        // Percentage needed for responsiveness
+        // width: 20%;
+    }
+}
+

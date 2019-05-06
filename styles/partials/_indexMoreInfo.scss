@@ -1,0 +1,61 @@
+// ==================================================
+// SPECIFIC MORE INFO STYLES
+// ==================================================
+
+.moreInfo {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    .moreInfoFlex {
+        display: flex;
+        justify-content: space-between;
+        .moreInfoRow {
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            .moreInfoBox {
+                height: 50%;            
+            }
+            .moreInfoBoxTop {
+                margin: 3rem 0 0 6rem;
+            }
+            .moreInfoDesc {
+                display: flex;
+                align-items: center;
+                .moreInfoText {
+                    width: 90%;
+                }
+                .moreInfoDFlexBot {
+                    display: flex;
+                    flex-direction: column;
+                    width: 80%;
+                    .moreInfoH2Right {
+                        align-self: flex-end;
+                    }
+                    .moreInfoBRight {
+                        align-self: flex-end;
+                    }
+                }
+            }
+            .moreInfoImgDiv {
+                position: relative;
+                height: 20rem;
+                .infoImg {
+                    width: 100%;
+                }  
+            }
+            .infoImgTop {
+                box-shadow: .5rem .5rem $marigold;
+                position: absolute;
+                right: 20%;
+                bottom: 15%;
+            }
+            .infoImgBot {
+                box-shadow: -.5rem .5rem $marigold;
+                position: absolute;
+                left: 20%;
+                top: 15%;
+            }
+        }
+    }
+}

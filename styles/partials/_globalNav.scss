@@ -1,0 +1,15 @@
+
+// ==================================================
+// SPECIFIC NAVIGATION STYLES
+// ==================================================
+.mainNavUl {
+    display: flex;
+	justify-content: space-between;
+	width: 40vw;	
+}
+
+li a {
+	text-transform: uppercase;
+	font-size: 1rem;
+	color: $iceBlue;
+}

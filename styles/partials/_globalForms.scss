@@ -1,0 +1,51 @@
+// ==================================================
+// SPECIFIC FORMS STYLES
+// ==================================================
+.commentPostBoxForm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .name {
+        width: 47%;
+        margin-bottom: .5rem;
+        height: 2rem;
+        padding: 1.5rem;
+        border: none;
+        border-bottom: 2px solid $marigold;
+        background-color: $camoGreen;
+    }
+    .email {        
+        width: 47%;
+        margin-bottom: .5rem;
+        height: 2rem;
+        padding: 1.5rem;
+        border: none;
+        border-bottom: 2px solid $marigold;
+        background-color: $camoGreen;
+    }
+    ::placeholder {
+        color: $iceBlue;
+    }
+    .commentPostComment {
+        width: 100%;
+        margin: 1rem 0;
+        padding: 1rem;
+        border: 2px solid $marigold;
+        background-color: $camoGreen;
+        resize: none;
+    }
+    .submit {
+        font-family: $dokdo;
+        font-size: 2rem;
+        padding: .1rem .775rem;
+        font-size: 2rem;	
+        color: $iceBlue;
+        background-color: $mudGreen;
+        margin-top: 1rem;
+        border: none;
+        width: 100%;
+    }
+}
+
+

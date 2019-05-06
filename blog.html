@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Dokdo|Lato:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/style.css"/>
+    <title>Blog</title>
+</head>
+<body>    
+    <header class="headerblogStyles">
+        <div class="wrapper">
+
+    <!-- ====================== _globalNav.scss ====================== -->
+            <div class="headerTopFlex">
+
+                <p class="logo">Mindn' Soul</p>
+
+                <nav class="mainNav">
+                    <ul class="mainNavUl">
+                        <li class="mainLi"><a href="index.html" class="mainNavAnc">Home</a></li>
+                        <li class="mainLi"><a href="#" class="mainNavAnc">About</a></li>
+                        <li class="mainLi"><a href="blog.html" class="mainNavAnc">Blog</a></li>
+                        <li class="mainLi"><a href="contact.html" class="mainNavAnc">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="blogH1">
+                <h1>Blog</h1>
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+
+    
+        <section class="discoverSpace">
+            <!-- <div class="wrapper"> -->
+                <div class="blogBorder">
+
+                    <div class="discoverSpaceImgBox">
+                        <img src="./assets/post-image.jpg" class="discoverSpaceImg" alt="A giant gong with a thick golden ring painted on the front.">
+                    </div>                    
+<!-- ====================== _globalSetup.scss ====================== -->
+<!-- ====================== _blogDiscoverSpace.scss ====================== -->
+
+                    <div class="blogWrapper">          
+
+                        <div class="discoverSpaceDiv">
+                            <h2 class="discoverSpaceH2">Come and discover space</h2>
+                            <p class="discoverSpaceDate">Monday May 5th, 2019 by <span class="discoverSpaceSpan">Saron</span></p>
+                            <p class="discoverSpaceText">Curabitu lobortis id lorem id bibendum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. Vestibulum nec erat ut mi sollicitudin porttitor id sit amet risus. Nam tempus vel odio vitae aliquam.</p>
+                            <p class="discoverSpaceText">In imperdiet eros id lacus vestibulum vestibulum. Suspendisse fermentum sem sagittis ante venenatis egestas quis vel justo. Maecenas semper suscipit nunc, sed aliquam sapien convallis eu. Nulla ut turpis in diam dapibus consequat.Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacu.</p>
+                            <p class="discoverSpaceText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut pretium pretium tempor. Ut eget imperdiet neque. In volutpat ante semper diam molestie, et aliquam erat laoreet. Sed sit amet arcu aliquet, molestie justo at, auctor nunc. Phasellus ligula ipsum, volutpat eget semper id, viverra eget nibh. Suspendisse luctus mattis cursus. Nam consectetur ante at nisl hendrerit gravida. Donec vehicula rhoncus mattis. Mauris dignissim semper mattis. Fusce porttitor a mi at suscipit.</p>
+                            <p class="discoverSpaceText">Praesent facilisis dolor sapien, vel sodales augue mollis ut. Mauris venenatis magna eu tortor posuere luctus. Aenean tincidunt turpis sed dui aliquam vehicula.</p>
+                        </div>   
+                    </div>                 
+
+                </div>
+                
+                <div class="comments">
+                    <div class="blogWrapper">
+                        <h2 class="commentsH2">Comments:</h2>
+
+                        <div class="commentsBox">
+
+                            <div class="commentsImage">
+                                <img src="./assets/comment-image.jpg" alt="An avatar image of an Asian man.">
+                            </div>
+                            
+                            <div class="commentsBoxInner">
+                                <h3 class="commentsH3">Tuesday October 9th, 2019 by Davin</h3>
+                                <p class="commentsText">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque lligula. Maecenas eu varius risus..</p>
+                            </div>
+                        </div>
+
+                        <div class="commentsBox">
+
+                            <div class="commentsImage">
+                                <img src="./assets/comment-image2.jpg" alt="An avatar image of 2 zebras.">
+                            </div>
+
+                            <div class="commentsBoxInner">
+                                <h3 class="commentsH3">Wednesday October 10th, 2019 by Lisa</h3>
+                                <p class="commentsText">Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudinipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="commentPostBox">
+                    <div class="blogWrapper">
+
+                        <form action="submit" class="commentPostBoxForm">
+                            <label for="commentPostName" class="visuallyHidden">Name</label>
+                            <input type="text" class="name" id="commentPostName" name="commentPostName" placeholder="Name" required>
+
+                            <label for="commentPostEmail" class="visuallyHidden">Email</label>
+                            <input type="email" class="email" id="commentPostEmail" name="commentPostEmail" placeholder="Email address" required>
+
+                            <label for="commentPostComment" class="visuallyHidden">Comment</label>
+                            <textarea name="commentPostComment" class="commentPostComment" id="commentPostComment" cols="30" rows="7" placeholder="Comment" required></textarea>
+
+                            <label for="commentPostSubmit" class="visuallyHidden">Submit</label>
+                            <button type="submit" class="submit" id="commentPostSubmit" name="commentPostSubmit">Post comment</button>
+                        </form>
+                    </div>
+
+                </div>
+            <!-- wrapper div -->
+            <!-- </div> -->
+        </section>
+
+        <section class="aside">
+            <aside class="discoverSpaceAside">
+                <div class="discoverSpaceAsideTop">
+                    <h3 class="discoverSpaceAsideH3">Our mission</h3>
+                    <p class="discoverSpaceText">Nam dapibus nisi vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum.<br class="aside">Find out more.</p>
+                </div>
+                    
+                <div class="discoverSpaceAsideBot">
+                    <h3 class="discoverSpaceAsideH3">Recent posts</h3>
+                    <nav class="discoverSpaceNav">
+                        <ul class="discoverSpaceUl">
+                            <li class="discoverSpaceLi">Donec facilisis tortor ut</li>
+                            <li class="discoverSpaceLi">Augue lacinia at viverra</li>
+                            <li class="discoverSpaceLi">Semper sed sapien metus</li>
+                            <li class="discoverSpaceLi">Scelerisque nec pharetra</li>
+                        </ul>
+                    </nav>
+                </div>
+            </aside>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="footerText">Copyright © 2019 HackerYou</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+// ==================================================
+// SPECIFIC DISCOVER SPACE STYLES
+// ==================================================
+.discoverSpace {
+    background-color: $camoGreen;
+}
+
+.discoverSpaceImgBox {
+    position: relative;
+    bottom: 5rem;
+    width: calc(100% - .9rem);    
+    .discoverSpaceImg {
+        width: 100%;
+        box-shadow: 1rem 1rem $mudGreen;
+    }
+}
+
+.blogBorder,
+.comments,
+.commentPostBox {
+    width: 60%;
+}
+
+.blogBorder {
+    border-right: 3px solid $mudGreen;
+    border-bottom: 3px solid $mudGreen;
+}
+
+.discoverSpaceText {
+    padding-top: 1rem;
+}
+
+.discoverSpaceText:last-child {
+    padding-bottom: 1rem;
+}

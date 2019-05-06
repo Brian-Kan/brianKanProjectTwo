@@ -1,0 +1,54 @@
+
+// ==================================================
+// SPECIFIC FEATURES STYLES
+// ==================================================
+.features {
+    background-color: $charcoal;
+    .featuresFlex {
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 0;
+        .featuresSubFlex {
+            display: flex;
+            flex-direction: row;
+            .featuresSubsection {
+                width: calc(100% / 2);
+                .featuresSubTitle {
+                    display: flex;
+                    align-items: center;
+                    font-size: 2rem;
+                    .fontAwe {
+                        i.fas {
+                            background-color: $mudGreen;
+                            border-radius: 50%;
+                            // padding: .5rem;
+                        }
+                    }
+                    h2 {
+                        padding: 2rem 0 2rem 2rem;
+                    }
+                }
+                .h2Desc p {
+                    padding-left: 6rem;
+                }
+            }
+        }
+        
+    }
+}
+
+i.fa-home {
+    padding: 1rem .9rem;
+}
+
+i.fa-users {
+    padding: 1rem .8rem;
+}
+
+i.fa-file {
+    padding: 1rem 1.2rem;
+}
+
+i.fa-phone {
+    padding: 1rem;
+}

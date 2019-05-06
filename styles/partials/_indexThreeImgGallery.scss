@@ -1,0 +1,17 @@
+// ==================================================
+// 3 IMAGE GALLERY STYLES
+// ==================================================
+.threeImageGallery {
+    background-color: $camoGreen;
+}
+.threeImgGallFlex {
+    display:flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+    .threeImgGall {
+        width: 30%;
+        img {
+            width: 100%;
+        }
+    }
+}

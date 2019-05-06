@@ -1,0 +1,76 @@
+
+// ==================================================
+// SPECIFIC HEADER STYLES
+// ==================================================
+header {
+	background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 90vh;
+}
+
+.headerTopFlex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 10vh;
+}
+
+.logo {
+	align-items: center;
+	font-family: $dokdo;
+	font-size: 2.075rem;
+	color: $marigold;
+}
+
+// ---------- index.html ----------
+.headerMainStyles {
+	background-image: url(../assets/home-image-1.jpg);
+}
+
+.headerBotFlex {
+	display: flex;
+	.headerYogaImgBox {
+		width: 50%;
+		position: relative;
+		right: 8.7%;
+		top: 50px;
+		img.headerYogaImg {
+			width: 100%;
+		}
+	}
+}
+
+.headerBotFlex h1 {
+	width: 50%;
+	padding: 0 2%;
+	line-height: 4rem;
+	text-transform: capitalize;
+	font-size: 5.75rem;
+	font-family: $dokdo;
+	color: $marigold;
+	span {
+		text-transform: lowercase;
+		font-size: 2.875rem;
+		font-family: $lato;
+		color: $iceBlue;
+	}
+}
+
+// ---------- blog.html ----------
+.blogH1 h1 {
+	font-size: 5.25rem;
+}
+
+.headerblogStyles {
+	background-image: url(../assets/blog-image-1.jpg)
+}
+
+.blogH1 {
+	position: relative;
+	top: 15rem;
+	font-size: 5.25rem;
+	height: 10px;
+
+}
+
