@@ -46,6 +46,12 @@
 
 } 
 
+@media (max-width: 1256px) {
+    .newAdventure .newAdventureFlex {
+        padding: 10rem 0;
+    }
+}
+
 @media (max-width: 1055px) {
     .features .featuresFlex .featuresSubFlex {
         display: block;
@@ -67,6 +73,7 @@
 
     .headerMainStyles {
         background-image: none;
+        height: 40vh;
     }
 
     .headerBotFlex {
@@ -94,3 +101,53 @@
     }
 }
 
+@media (max-width: 750px) {
+    div.freeTrialsDiv {
+        margin-top: 0;
+    }
+    .headerMainStyles {
+        height: 60vh;
+    }
+    .newAdventure 
+    .newAdventureFlex {
+        padding: 1rem 0;
+    }
+}
+
+@media (max-width: 635px) {
+    .freeTrialsDiv 
+    .freeTrialsText {
+        text-align: center;
+    }
+
+    .freeTrialsDiv 
+    .h2FreeTrials {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 475px) {
+    .featH2,
+    .featText {
+        display: none;
+    }
+    .features 
+    .featuresFlex {
+        align-items: center;
+    }
+    .fontAwe {
+        margin: 1rem 0;
+    }
+    .bgImg {
+        height: 30vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .headerBotFlex h1 {
+        font-size: 3rem;
+    }
+    .headerBotFlex h1 span {
+        font-size: 1.5rem;
+    }
+}

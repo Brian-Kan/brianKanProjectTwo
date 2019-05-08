@@ -9,6 +9,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Dokdo|Lato:300,400,700" rel="stylesheet">
 
+    <link type="image/png" href="assets/favicon.png" rel="icon">
+
     <link rel="stylesheet" href="styles/style.css"/>
     <title>Blog</title>
 </head>
@@ -30,7 +32,7 @@
                     <ul class="mainNavUl">
                         <li class="mainLi"><a href="index.html" class="mainNavAnc">Home</a></li>
                         <li class="mainLi"><a href="#" class="mainNavAnc">About</a></li>
-                        <li class="mainLi"><a href="blog.html" class="mainNavAnc">Blog</a></li>
+                        <li class="mainLi"><a href="blog.html" class="mainNavAnc colorStyle">Blog</a></li>
                         <li class="mainLi"><a href="contact.html" class="mainNavAnc">Contact</a></li>
                     </ul>
                 </nav>
@@ -134,12 +136,12 @@
         <section class="commentPostBox">
             <div class="blogWrapper">
 
-                <form action="submit" class="commentPostBoxForm form">
+                <form action="submit" class="commentPostBoxForm form commentForm">
                     <label for="commentPostName" class="visuallyHidden">Name</label>
-                    <input type="text" class="name" id="commentPostName" name="commentPostName" placeholder="Name" required>
+                    <input type="text" class="name commentName" id="commentPostName" name="commentPostName" placeholder="Name" required>
 
                     <label for="commentPostEmail" class="visuallyHidden">Email</label>
-                    <input type="email" class="email" id="commentPostEmail" name="commentPostEmail" placeholder="Email address" required>
+                    <input type="email" class="email commentEmail" id="commentPostEmail" name="commentPostEmail" placeholder="Email address" required>
 
                     <label for="commentPostComment" class="visuallyHidden">Comment</label>
                     <textarea name="commentPostComment" class="comment" id="commentPostComment" cols="30" rows="7" placeholder="Comment" required></textarea>

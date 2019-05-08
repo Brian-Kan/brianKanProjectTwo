@@ -489,7 +489,7 @@ header {
     width: 50%;
     position: relative;
     right: 8.7%;
-    top: 150px; }
+    top: 100px; }
     .headerBotFlex .headerYogaImgBox img.headerYogaImg {
       width: 100%; }
 
@@ -531,6 +531,9 @@ header {
   text-transform: uppercase;
   font-size: 1rem;
   color: #fafffe; }
+
+a.colorStyle {
+  color: #ffc600; }
 
 .hamburgerMenu {
   display: none;
@@ -752,6 +755,10 @@ i.fa-phone {
   .infoImg {
     display: none; } }
 
+@media (max-width: 1256px) {
+  .newAdventure .newAdventureFlex {
+    padding: 10rem 0; } }
+
 @media (max-width: 1055px) {
   .features .featuresFlex .featuresSubFlex {
     display: block; }
@@ -764,7 +771,8 @@ i.fa-phone {
   .headerBotFlex h1 {
     width: 100%; }
   .headerMainStyles {
-    background-image: none; }
+    background-image: none;
+    height: 40vh; }
   .headerBotFlex {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
@@ -779,6 +787,43 @@ i.fa-phone {
     display: none; }
   .newAdventure .newAdventureFlex p.newAdventure {
     padding-right: 0px; } }
+
+@media (max-width: 750px) {
+  div.freeTrialsDiv {
+    margin-top: 0; }
+  .headerMainStyles {
+    height: 60vh; }
+  .newAdventure
+.newAdventureFlex {
+    padding: 1rem 0; } }
+
+@media (max-width: 635px) {
+  .freeTrialsDiv
+.freeTrialsText {
+    text-align: center; }
+  .freeTrialsDiv
+.h2FreeTrials {
+    padding-top: 0; } }
+
+@media (max-width: 475px) {
+  .featH2,
+  .featText {
+    display: none; }
+  .features
+.featuresFlex {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .fontAwe {
+    margin: 1rem 0; }
+  .bgImg {
+    height: 30vh; } }
+
+@media (max-width: 400px) {
+  .headerBotFlex h1 {
+    font-size: 3rem; }
+  .headerBotFlex h1 span {
+    font-size: 1.5rem; } }
 
 @media (max-width: 1391px) {
   aside {
@@ -808,4 +853,32 @@ i.fa-phone {
   .hamburgerMenu {
     display: block; }
   .commentsImage img {
+    display: none; }
+  .form .commentName,
+  .form .commentEmail {
+    width: 100%; } }
+
+@media (max-width: 1116px) {
+  .formWidthBox {
+    width: 100%; }
+  .contactMethods {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto; }
+  .contSocNavUl {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .contSocNavUl li {
+    padding: 1rem; } }
+
+@media (max-width: 1070px) {
+  .contactForm .contactName,
+  .contactForm .contactEmail {
+    width: 100%; }
+  h1.contactH1 {
+    line-height: 5rem; } }
+
+@media (max-width: 550px) {
+  .contactForm {
     display: none; } }

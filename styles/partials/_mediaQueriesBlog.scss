@@ -49,4 +49,9 @@
     .commentsImage img {
         display: none;
     }
+
+    .form .commentName,
+    .form .commentEmail {
+        width: 100%;
+    }
 }
