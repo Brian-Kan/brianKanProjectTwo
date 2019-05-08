@@ -1,0 +1,44 @@
+// ==================================================
+// SPECIFIC ASIDE STYLES
+// ==================================================
+aside {
+    width: 25%;
+    background: $mudGreen;
+    position: absolute;
+    top: 50rem;
+    right: 0rem;
+    padding: 8px 0;
+    border: .5rem solid #555f02;
+    .asideImgDiv {
+        width: 95%;
+        .asideImg {
+            width: 100%;
+            position: relative;
+            bottom: 2rem;
+            left: 1.5rem
+        }
+    }
+}
+
+.discoverSpaceAsideTop,
+.discoverSpaceAsideBot {
+    margin-left: 1.5rem;
+}
+
+.discoverSpaceAsideH3 {
+    font-family: $dokdo;
+    font-size: 1.5rem;
+}
+
+.discoverSpaceAsideH3Bot {
+    padding-bottom: 1rem;
+}
+
+// ----- CUSTOM BULLET STYLINGS -----
+.discoverSpaceUl li::before {
+    content: "\2022"; 
+    color: $marigold; 
+    display: inline-block; 
+    width: 1.5rem;
+    list-style-position: inside;
+}

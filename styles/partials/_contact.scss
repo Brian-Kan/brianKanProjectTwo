@@ -1,0 +1,74 @@
+// ==================================================
+// SPECIFIC CONTACT PAGE STYLES
+// ==================================================
+.headerContactStyles {
+	background-image: url(../assets/contactImage1.jpg);
+    height: 40vh;
+    background-position: center;
+}
+
+.contactFormSection {
+    margin-bottom: 5rem;
+}
+
+.contactForm {
+    background: $charcoal;
+    padding: 3rem;
+    box-shadow: 10px 10px $marigold;
+}
+
+.contactH1Flex {
+    font-size: 5.25rem;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    .contactH1 {
+        font-size: 5.25rem;
+    }
+}
+
+.formWidthBox {
+    width: 60%;
+    position: relative;
+    bottom: 3rem;
+}
+
+.contactFlexStyle {
+    background: $camoGreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+// ------ Social Media and Addresses ------
+.contactMethods {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.contSocNavUl {
+    display: flex;
+    li {
+        padding-right: 1rem;;
+        font-size: 2rem;
+    }
+}
+
+.contSocNavUl a:link,
+.contSocNavUl a:visited{
+    color: $marigold;
+}
+
+.contSocNavUl a:hover,
+.contSocNavUl a:active {
+    color: $iceBlue;
+}
+
+.ourEmail {
+    margin: 1rem 0;
+    display: inline-block;
+}
+
+

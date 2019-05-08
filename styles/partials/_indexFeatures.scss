@@ -11,30 +11,34 @@
         .featuresSubFlex {
             display: flex;
             flex-direction: row;
-            .featuresSubsection {
-                width: calc(100% / 2);
-                .featuresSubTitle {
-                    display: flex;
-                    align-items: center;
-                    font-size: 2rem;
-                    .fontAwe {
-                        i.fas {
-                            background-color: $mudGreen;
-                            border-radius: 50%;
-                            // padding: .5rem;
-                        }
-                    }
-                    h2 {
-                        padding: 2rem 0 2rem 2rem;
-                    }
-                }
-                .h2Desc p {
-                    padding-left: 6rem;
-                }
-            }
+            
         }
         
     }
+}
+
+.featuresSubsection {
+    width: calc(100% / 2);
+    .featuresSubTitle {
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        
+    }
+    .h2Desc p {
+        padding-left: 6rem;
+    }
+}
+
+
+.fontAwe {
+    i.fas {
+        background-color: $mudGreen;
+        border-radius: 50%;
+    }
+}
+h2 {
+    padding: 2rem 0 2rem 2rem;
 }
 
 i.fa-home {

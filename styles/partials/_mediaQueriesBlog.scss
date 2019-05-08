@@ -1,0 +1,52 @@
+// ==================================================
+// MEDIA QUERIES - BLOG
+// ==================================================
+ 
+@media (max-width: 1391px) {
+    aside {
+        position: static;
+        width: 100%;
+        background: $camoGreen;
+    }
+
+    .asideImg,
+    .discoverSpaceImg {
+        display: none;
+    }
+
+    .discoverSpaceAside {
+        text-align: center;
+    }
+    .blogBorder {
+        border: none;
+    }
+
+    .blogBorder,
+    .comments,
+    .commentPostBox {
+        width: 100%;
+    }   
+}
+
+@media (max-width: 910px) {
+    header {
+        height: 25vh;
+    }
+
+    .blogH1 {
+        position: static;
+        margin-top: 2rem;
+    }
+
+    .mainNavUl {
+        display: none;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+
+    .commentsImage img {
+        display: none;
+    }
+}

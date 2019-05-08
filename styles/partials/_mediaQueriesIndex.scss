@@ -1,0 +1,96 @@
+// ==================================================
+// MEDIA QUERIES - INDEX
+// ==================================================
+@media (max-width: 1305px) {
+    // _indexMoreInfo.scss --- BEGINS
+    .moreInfo {
+        height: auto;
+        .moreInfoFlex {
+            display: block;
+            margin: 1rem 0;
+            .moreInfoRow {
+                width: 100%;               
+            }
+        }
+    }
+
+    .infoImgTop {
+        position: static;
+    }
+    .infoImgBot {
+        position: static;
+    }
+     
+    .moreInfoImgDiv {
+        position: static;
+        height: auto;
+    }
+    
+    .moreInfoBoxTop {
+        margin: auto;
+    }
+    
+    .moreInfoDFlexBot {
+        width: 100%;
+    }
+    
+    .moreInfoTextBot {
+        width: 100%;
+    }
+    
+    .infoImg {
+        display: none;
+    }
+
+    // _indexMoreInfo.scss --- ENDS
+
+} 
+
+@media (max-width: 1055px) {
+    .features .featuresFlex .featuresSubFlex {
+        display: block;
+    }
+
+    .features .featuresFlex .featuresSubFlex .featuresSubsection{
+        width: 100%;
+    }
+}
+
+@media (max-width: 900px) {    
+    header {
+        height: 100%;
+    }
+
+    .headerBotFlex h1 {
+        width: 100%;
+    }
+
+    .headerMainStyles {
+        background-image: none;
+    }
+
+    .headerBotFlex {
+        justify-content: center;
+    }
+
+    .headerBotFlex .headerYogaImgBox {
+        display: none;
+    }
+
+    .mainNavUl {
+        display: none;
+    }
+
+    .hamburgerMenu {
+        display: block;
+    }
+
+    .newAdventure .aerobics {
+        display: none;
+    }
+
+    .newAdventure .newAdventureFlex p.newAdventure {
+        padding-right: 0px;
+    }
+}
+

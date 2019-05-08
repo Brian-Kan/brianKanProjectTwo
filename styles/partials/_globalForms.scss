@@ -1,7 +1,9 @@
 // ==================================================
 // SPECIFIC FORMS STYLES
 // ==================================================
-.commentPostBoxForm {
+
+// ------ BLOG FORM ------
+.form {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -15,7 +17,7 @@
         border-bottom: 2px solid $marigold;
         background-color: $camoGreen;
     }
-    .email {        
+    .email {
         width: 47%;
         margin-bottom: .5rem;
         height: 2rem;
@@ -26,8 +28,14 @@
     }
     ::placeholder {
         color: $iceBlue;
+        font-size: 1rem;
+        font-family: $lato;
+        font-weight: 300;
     }
-    .commentPostComment {
+    .comment {
+        font-size: 1rem;
+        font-family: $lato;
+        font-weight: 300;
         width: 100%;
         margin: 1rem 0;
         padding: 1rem;
@@ -35,17 +43,38 @@
         background-color: $camoGreen;
         resize: none;
     }
+    
+    // ------ .message is specifically for the contact page ------ 
+    .message {
+        font-size: 1rem;
+        font-family: $lato;
+        font-weight: 300;
+        width: 100%;
+        margin: 1rem 0;
+        padding: 1rem;
+        border: 2px solid $marigold;
+        background-color: $charcoal;
+        resize: none;
+    }
     .submit {
         font-family: $dokdo;
         font-size: 2rem;
         padding: .1rem .775rem;
-        font-size: 2rem;	
         color: $iceBlue;
         background-color: $mudGreen;
         margin-top: 1rem;
         border: none;
         width: 100%;
     }
+}
+
+.contactForm .contactName,
+.contactForm .contactEmail {
+    background-color: $charcoal;
+}
+
+.commentPostBoxForm {
+    margin-bottom: 5rem;
 }
 
 

@@ -4,10 +4,10 @@
 // ==================================================
 // ---------- index.html ----------
 .bgImg {
-    height: 90vh;
-    background-image: url(../assets/banner-image.jpg);
+    height: 50vh;
+    background-image: url(../assets/bannerImage.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100vw;
 }
 
 // ---------- index.html ----------
@@ -15,7 +15,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 25%;
+    margin: 15% 0;
     .h2FreeTrials {
         font-size: 2.25rem;
         text-align: center;
@@ -29,8 +29,6 @@
         align-self: center;
         text-align: center;
         width: 15rem;
-        // Percentage needed for responsiveness
-        // width: 20%;
     }
 }
 

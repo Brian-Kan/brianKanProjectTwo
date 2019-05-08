@@ -22,6 +22,11 @@
                 <p class="logo">Mindn' Soul</p>
 
                 <nav class="mainNav">
+
+                    <div class="hamburger">
+                        <a href="#" class="hamburgerMenu aria-hidden="true"><i class="fas fa-bars"></i><span class="sr-only">Menu</span></a>
+                    </div>
+
                     <ul class="mainNavUl">
                         <li class="mainLi"><a href="index.html" class="mainNavAnc">Home</a></li>
                         <li class="mainLi"><a href="#" class="mainNavAnc">About</a></li>
@@ -42,11 +47,11 @@
 
     
         <section class="discoverSpace">
-            <!-- <div class="wrapper"> -->
+
                 <div class="blogBorder">
 
                     <div class="discoverSpaceImgBox">
-                        <img src="./assets/post-image.jpg" class="discoverSpaceImg" alt="A giant gong with a thick golden ring painted on the front.">
+                        <img src="./assets/postImage.jpg" class="discoverSpaceImg" alt="A giant gong with a thick golden ring painted on the front.">
                     </div>                    
 <!-- ====================== _globalSetup.scss ====================== -->
 <!-- ====================== _blogDiscoverSpace.scss ====================== -->
@@ -64,70 +69,23 @@
                     </div>                 
 
                 </div>
-                
-                <div class="comments">
-                    <div class="blogWrapper">
-                        <h2 class="commentsH2">Comments:</h2>
-
-                        <div class="commentsBox">
-
-                            <div class="commentsImage">
-                                <img src="./assets/comment-image.jpg" alt="An avatar image of an Asian man.">
-                            </div>
-                            
-                            <div class="commentsBoxInner">
-                                <h3 class="commentsH3">Tuesday October 9th, 2019 by Davin</h3>
-                                <p class="commentsText">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque lligula. Maecenas eu varius risus..</p>
-                            </div>
-                        </div>
-
-                        <div class="commentsBox">
-
-                            <div class="commentsImage">
-                                <img src="./assets/comment-image2.jpg" alt="An avatar image of 2 zebras.">
-                            </div>
-
-                            <div class="commentsBoxInner">
-                                <h3 class="commentsH3">Wednesday October 10th, 2019 by Lisa</h3>
-                                <p class="commentsText">Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudinipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="commentPostBox">
-                    <div class="blogWrapper">
-
-                        <form action="submit" class="commentPostBoxForm">
-                            <label for="commentPostName" class="visuallyHidden">Name</label>
-                            <input type="text" class="name" id="commentPostName" name="commentPostName" placeholder="Name" required>
-
-                            <label for="commentPostEmail" class="visuallyHidden">Email</label>
-                            <input type="email" class="email" id="commentPostEmail" name="commentPostEmail" placeholder="Email address" required>
-
-                            <label for="commentPostComment" class="visuallyHidden">Comment</label>
-                            <textarea name="commentPostComment" class="commentPostComment" id="commentPostComment" cols="30" rows="7" placeholder="Comment" required></textarea>
-
-                            <label for="commentPostSubmit" class="visuallyHidden">Submit</label>
-                            <button type="submit" class="submit" id="commentPostSubmit" name="commentPostSubmit">Post comment</button>
-                        </form>
-                    </div>
-
-                </div>
-            <!-- wrapper div -->
-            <!-- </div> -->
         </section>
 
+<!-- ---------------------- ASIDE ---------------------- -->
         <section class="aside">
             <aside class="discoverSpaceAside">
+
+                <div class="asideImgDiv">
+                    <img src="./assets/sidebarImage.jpg" class="asideImg" alt="A pile of stone stacked on top of each other with the largest stone on the bottom.">
+                </div>
+
                 <div class="discoverSpaceAsideTop">
                     <h3 class="discoverSpaceAsideH3">Our mission</h3>
                     <p class="discoverSpaceText">Nam dapibus nisi vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum.<br class="aside">Find out more.</p>
                 </div>
                     
                 <div class="discoverSpaceAsideBot">
-                    <h3 class="discoverSpaceAsideH3">Recent posts</h3>
+                    <h3 class="discoverSpaceAsideH3 discoverSpaceAsideH3Bot">Recent posts</h3>
                     <nav class="discoverSpaceNav">
                         <ul class="discoverSpaceUl">
                             <li class="discoverSpaceLi">Donec facilisis tortor ut</li>
@@ -138,6 +96,60 @@
                     </nav>
                 </div>
             </aside>
+        </section>
+
+<!-- ---------------------- USER COMMENTS ---------------------- -->
+        <section class="comments">
+            <div class="blogWrapper">
+                <h2 class="commentsH2">Comments:</h2>
+
+                <div class="commentsBox">
+
+                    <div class="commentsImage">
+                        <img src="./assets/commentImage.jpg" alt="An avatar image of an Asian man.">
+                    </div>
+                    
+                    <div class="commentsBoxInner">
+                        <h3 class="commentsH3">Tuesday October 9th, 2019 by Davin</h3>
+                        <p class="commentsText">Fusce vehicula dolor arcu, sit amet blandit dolor mollis nec. Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudin ipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque lligula. Maecenas eu varius risus..</p>
+                    </div>
+                </div>
+
+                <div class="commentsBox">
+
+                    <div class="commentsImage">
+                        <img src="./assets/commentImage2.jpg" alt="An avatar image of 2 zebras.">
+                    </div>
+
+                    <div class="commentsBoxInner">
+                        <h3 class="commentsH3">Wednesday October 10th, 2019 by Lisa</h3>
+                        <p class="commentsText">Donec viverra eleifend lacus, vitae ullamcorper metus. Sed sollicitudinipsum quis nunc sollicitudin ultrices. Donec euismod scelerisque ligula.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+<!-- ---------------------- COMMENT FORM ---------------------- -->
+        <section class="commentPostBox">
+            <div class="blogWrapper">
+
+                <form action="submit" class="commentPostBoxForm form">
+                    <label for="commentPostName" class="visuallyHidden">Name</label>
+                    <input type="text" class="name" id="commentPostName" name="commentPostName" placeholder="Name" required>
+
+                    <label for="commentPostEmail" class="visuallyHidden">Email</label>
+                    <input type="email" class="email" id="commentPostEmail" name="commentPostEmail" placeholder="Email address" required>
+
+                    <label for="commentPostComment" class="visuallyHidden">Comment</label>
+                    <textarea name="commentPostComment" class="comment" id="commentPostComment" cols="30" rows="7" placeholder="Comment" required></textarea>
+
+                    <label for="commentPostSubmit" class="visuallyHidden">Submit</label>
+                    <button type="submit" class="submit" id="commentPostSubmit" name="commentPostSubmit">Post comment</button>
+                </form>
+
+            </div>
+
         </section>
 
     </main>

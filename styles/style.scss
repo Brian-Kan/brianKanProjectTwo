@@ -1,7 +1,10 @@
 @import "./partials/globalSetup";
 
+@import "./partials/blogAside";
 @import "./partials/blogComments";
 @import "./partials/blogDiscoverSpace";
+
+@import "./partials/contact";
 
 @import "./partials/globalFooter";
 @import "./partials/globalForms";
@@ -15,5 +18,7 @@
 @import "./partials/indexMoreInfo";
 @import "./partials/indexThreeImgGallery";
 
-
+@import "./partials/mediaQueriesIndex";
+@import "./partials/mediaQueriesBlog";
+@import "./partials/mediaQueriesContact";
 
